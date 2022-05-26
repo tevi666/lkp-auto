@@ -1,3 +1,12 @@
+@media (max-width: 1400px) {
+  .modal__services {
+    height: 410px;
+  }
+  .modal__services .services__item-title {
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
 @media (max-width: 1156px){
   .services__items{
     display: block;
@@ -38,6 +47,9 @@
     max-width: 465px;
     margin-bottom: 25px;
   }
+  .modal__services {
+    height: 365px;
+  }
 }
 @media (max-width: 1050px){
   .footer__inner{
@@ -45,6 +57,9 @@
   }
   .footer__map{
     max-width: 100%;
+  }
+  .modal__services {
+    height: 365px;
   }
 }
 @media (max-width: 900px){
@@ -93,6 +108,9 @@
     max-width: 100%;
     margin-bottom: 30px;
   }
+  .modal__services {
+    height: 365px;
+  }
 }
 @media (max-width: 700px){
   .header__btn{
@@ -131,12 +149,19 @@
   .menu li + li{
     padding-left: 0;
   }
+  .modal__services {
+    height: 365px;
+  }
 }
 @media (max-width: 600px){
   .services__item{
     max-width: 100%;
     min-height: 375px;
     margin: 30px auto;
+  }
+  .modal__services {
+    height: 410px;
+    width: 250px;
   }
 }
 @media (max-width: 540px){
@@ -158,6 +183,10 @@
   .news__slider-inner .slick-btn{
     bottom: -90px;
   }
+  .modal__services {
+    height: 410px;
+    width: 250px;
+  }
 }
 @media (max-width: 414px){
   .slider__title{
@@ -165,6 +194,10 @@
   }
   .slider__text{
     font-size: 16px;
+  }
+  .modal__services {
+    height: 410px;
+    width: 250px;
   }
 }
 @media (max-width: 400px){

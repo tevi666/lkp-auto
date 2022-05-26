@@ -16,7 +16,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_modal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/modal */ \"./modules/modal.js\");\n\n\n(0,_modules_modal__WEBPACK_IMPORTED_MODULE_0__.modal)();\n(0,_modules_modal__WEBPACK_IMPORTED_MODULE_0__.modalNews)();\n\n//# sourceURL=webpack:///./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_modal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/modal */ \"./modules/modal.js\");\n\n\n(0,_modules_modal__WEBPACK_IMPORTED_MODULE_0__.modal)();\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"modal\": () => (/* binding */ modal),\n/* harmony export */   \"modalNews\": () => (/* binding */ modalNews)\n/* harmony export */ });\n/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./helpers */ \"./modules/helpers.js\");\n\nconst modal = () => {\n    const modal = document.querySelector('.modal__services');\n    const btn = document.querySelector('.modal-services');\n    const closeBtn = document.querySelector('.close__btn');\n\n    const closeModal = () => {\n        modal.style.display = 'none';\n    };\n    const openModal = () => {\n        modal.style.display = 'block';\n    };\n    btn.addEventListener('click', e => {\n        e.preventDefault();\n        openModal();\n    });\n    closeBtn.addEventListener('click', closeModal);\n};\nconst modalNews = () => {\n    const btn = document.querySelector('.news__btn');\n    const modal = document.querySelector('.modal__news');\n    const closeBtn = document.querySelector('.close__btn-news');\n    const closeModal = () => {\n        modal.style.display = 'none';\n    };\n    const openModal = () => {\n        modal.style.display = 'block';\n    };\n    btn.addEventListener('click', e => {\n        e.preventDefault();\n        openModal();\n    });\n    closeBtn.addEventListener('click', closeModal);\n\n};\n\n//# sourceURL=webpack:///./modules/modal.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"modal\": () => (/* binding */ modal)\n/* harmony export */ });\n/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./helpers */ \"./modules/helpers.js\");\n\nconst modal = () => {\n    const modal = document.querySelector('.modal__services');\n    const btn = document.querySelector('.modal-services');\n    const closeBtn = document.querySelector('.close__btn');\n\n    const closeModal = () => {\n        modal.style.display = 'none';\n    };\n    const openModal = () => {\n        modal.style.display = 'block';\n    };\n    btn.addEventListener('click', e => {\n        e.preventDefault();\n        openModal();\n    });\n    closeBtn.addEventListener('click', closeModal);\n};\n\n//# sourceURL=webpack:///./modules/modal.js?");
 
 /***/ })
 

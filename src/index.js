@@ -1,7 +1,5 @@
 import {
-    modal,
-    modalNews
+    modal
 } from './modules/modal';
 
 modal();
-modalNews();
