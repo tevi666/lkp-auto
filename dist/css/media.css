@@ -6,6 +6,9 @@
     font-size: 14px;
     font-weight: normal;
   }
+  #modal {
+    overflow:hidden;
+  }
 }
 @media (max-width: 1156px){
   .services__items{

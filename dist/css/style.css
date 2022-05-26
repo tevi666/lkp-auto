@@ -736,28 +736,6 @@ header{
 .modal__services .services__item-link {
   margin-bottom: 20px;
 }
-.modal__news {
-  display: none;
-  width: 30%;
-  height: 80%;
-  z-index: 1001;
-  background-color: rgba(0,0,0,1);
-  /* overflow:scroll; */
-  position:fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
-}
-.modal__news .news__blog {
-  margin: 0 auto;
-  margin-top: 20px;
-}
-.modal__news .news__blog-title {
-  color: #FFF;
-}
-.modal__news .news__blog-text {
-  color: #FFF;
-}
 .close__btn-news {
   position: absolute;
   right: 0;
