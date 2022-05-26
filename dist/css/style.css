@@ -769,3 +769,7 @@ header{
 .close__btn-news:hover {
   color: #d3d2d2;
 }
+.modal__services .services__item-title {
+  font-size: 15px;
+  font-weight: normal;
+}
