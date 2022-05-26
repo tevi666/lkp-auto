@@ -670,6 +670,7 @@ header{
   width: 300px;
   height: 245px;
   border-radius: 20px;
+  overflow:hidden;
 }
 #modal input{
   display: block;
