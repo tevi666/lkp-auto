@@ -1,6 +1,5 @@
 export const scroll = () => {
     const menu = document.querySelectorAll('ul>li>a');
-    console.log(menu);
 
     const allLinks = [...menu];
 
