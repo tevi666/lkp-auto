@@ -755,3 +755,47 @@ header{
 .logo{
   width: 50px;
 }
+.about__close {
+  color: #000;
+  background: transparent;
+}
+.default-btn {
+  cursor: pointer;
+}
+.about__modal {
+  width: 800px;
+  height: 450px;
+  overflow:hidden;
+  margin: 0 auto;
+  box-shadow: 1px 7px 24.3px 2.7px rgba(91, 89, 89, 1);
+background-image: url(../img/about__image.jpeg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+overflow: hidden;
+position:fixed;
+z-index: 1500;
+display: none;
+top: 25%;
+left: 25%;
+}
+.about__title h2 {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.about__text-modal {
+  background:#08C;
+  color: #000;
+  opacity: 0.8;
+  text-align: center;
+  padding: 20px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 50px;
+}
+.about__close {
+  display: flex;
+  margin: 0 auto;
+  color: #FFF;
+}

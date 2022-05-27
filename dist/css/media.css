@@ -9,6 +9,9 @@
   #modal {
     overflow:hidden;
   }
+  .about__btn{
+    display: none;
+  }
 }
 @media (max-width: 1156px){
   .services__items{
