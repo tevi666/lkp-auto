@@ -67,6 +67,9 @@
   .modal__services {
     height: 365px;
   }
+  .social-icons {
+    width: 260px;
+  }
 }
 @media (max-width: 900px){
   .slider .slick-btn{
